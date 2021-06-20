@@ -1,0 +1,13 @@
+{
+  "name": "New word-Each day",
+  "version": "0.01",
+  "description": "Learn a new word daily and improve your vocabulary.",
+  "chrome_url_overrides": {
+    "newtab": "ontab.html"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "manifest_version": 2
+}
